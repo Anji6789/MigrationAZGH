@@ -4,7 +4,7 @@ name: Validate PowerShell
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - '**.ps1'
   pull_request:
