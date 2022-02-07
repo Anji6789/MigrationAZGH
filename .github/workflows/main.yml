@@ -26,4 +26,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: running powershell
         shell: powershell
-        run: .\Scripts\migrate.ps1 -AzDOPAT azgwpurjskt7xsbmqqex2ngz2axb5w6xjt5x74ashywqs7kpux3q -AzDOOrg ChirumamillaA -AzDOPrj Migration -AzDORepo repo1 -GHPAT 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 -GHUser Anji6789 -GHRepo https://github.com/Anji6789/gh4
+        run: .\Scripts\migrate.ps1 -AzDOPAT azgwpurjskt7xsbmqqex2ngz2axb5w6xjt5x74ashywqs7kpux3q -AzDOOrg Chirumamilla.A -AzDOPrj Migration -AzDORepo repo1 -GHPAT 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 -GHUser Anji6789 -GHRepo https://github.com/Anji6789/gh4
